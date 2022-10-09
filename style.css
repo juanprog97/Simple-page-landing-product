@@ -111,6 +111,7 @@ body #description {
 body #description img#showImage {
   width: calc(max(20rem,50vw));
   margin: auto;
+  transform: scale(0.6);
 }
 
 body #description #detail-product {
@@ -135,10 +136,12 @@ body #description #detail-product #title {
   text-align: center;
 }
 
-body #description #detail-product #description {
+body #description #detail-product #descriptionText {
   font-size: calc(max(0.7em,1.5vw));
   line-height: 1.5em;
   text-align: justify;
+  width: fit-content;
+  min-width: 18em;
 }
 
 body #description #detail-product #button-info {
