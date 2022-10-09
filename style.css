@@ -101,11 +101,13 @@ body #description {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  align-items: center;
   padding: 1em;
   margin-top: 1em;
   gap: 1em;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  transform:scale(0.9)
 }
 
 body #description img#showImage {
